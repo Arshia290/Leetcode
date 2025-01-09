@@ -1,0 +1,2 @@
+The thought process behind this solution was to check every single word in the String array and check if it contains the prefix. 
+The int count keeps track of the number of words that contained the prefix.
