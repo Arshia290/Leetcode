@@ -3,3 +3,6 @@ An input string is valid if:
 1) Open brackets must be closed by the same type of brackets.
 2) Open brackets must be closed in the correct order.
 3) Every close bracket has a corresponding open bracket of the same type.
+
+Methodology:
+For this problem, I decided to use a stack to check the validity of the input string. The stack checker pushes with instances of "([{", and pops with instances of ")]}" and verifies that the matching parenthesis exists. In the end, if the stack is empty, the string is a valid paranthesis.
