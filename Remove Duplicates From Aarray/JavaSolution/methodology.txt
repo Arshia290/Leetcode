@@ -1,0 +1,7 @@
+Problem:
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. 
+The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+
+Methodology:
+To solve this problem, a loop goes through the elements of the input array and moves the first unique element discovered to the front of the array, so [1,1,2] --> [1,2,2].
+The variable index keeps track of how many unique elements there are. In the example above index = 2.
